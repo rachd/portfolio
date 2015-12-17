@@ -1,0 +1,44 @@
+img {
+	width: 100%;
+	height: auto;
+}
+
+body {
+	background-color: #000;
+}
+
+h1, h2, p, ul {
+	color: #f4ffd9;
+}
+
+a:hover {
+	text-decoration: none;
+	color: #5fbfa6;
+}
+
+.tab_thumbnail {
+	width: 100px;
+	border-radius: 50%;
+}
+
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:hover,
+.nav-tabs > li.active > a:focus,
+.nav-tabs > li > a:hover {
+	background-color: #000;
+	border-color: #000;
+	border-bottom-color: #fff;
+}
+
+.nav-tabs > li > a:hover > img {
+	border: 5px solid #fff;
+}
+
+.nav-tabs {
+	text-align: center;
+}
+
+.nav-tabs > li {
+	float: none;
+	display: inline-block;
+}
